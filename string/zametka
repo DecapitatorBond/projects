@@ -1,0 +1,9 @@
+"""Сегодня, 23 июля 2019 в 12:00.
+Погода в {self.result["name"]} {"BY"}:
+  {self.result["weather"][0]["main"]}, {self.result["weather"][0]["description"]}.
+  Температура воздуха: {self.result["main"]["temp"]}.
+  Атмосферное давление: {self.result["main"]["pressure"]} мм/рс.
+  Влажность воздуха: {self.result["main"]["humidity"]}%.
+  Ветер: {self.result["wind"]["deg"]}.
+  Скорость ветра: {self.result["wind"]["speed"]} м/c.
+"""
